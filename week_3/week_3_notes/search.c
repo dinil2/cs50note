@@ -14,7 +14,7 @@ int main(void)
         if (numbers[i] == n)
         {
             printf("Found\n");
-            return 0;
+            return 0;        //in here we return 0 becuse something wrong here
         }
     }
     printf("Not Found\n");
