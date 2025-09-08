@@ -73,6 +73,9 @@
             For i from 0 to n - 1
                 Find smallest number between numbers[i] and numbers[n - 1]
                 Swap smalles number with numbers[i]
+
+https://www.w3schools.com/dsa/dsa_algo_selectionsort.php
+
    2. Bubble Sort:
         - Runtime:
             - Big Oh: O(n^2) --> Worst Case
@@ -85,6 +88,10 @@
                         Swap them
                 If no swaps
                     Quit
+    
+    https://www.w3schools.com/dsa/dsa_algo_bubblesort.php
+    
+    
     3. Merge Sort:
         - Runtime:
             - Big Oh: O(n * log(n))
@@ -97,6 +104,10 @@
                 Sort left half of numbers
                 Sort right half of numbers
                 Merge sorted halves 
+
+
+
+    https://www.w3schools.com/dsa/dsa_algo_mergesort.php    
 
 - Recursion: An alogrithm that calls upon itself with the process of the task. 
     - Base Case: The logic "bottoms out" and no more recursions or work can be done and the recursion and then "unfold" or cease. 
