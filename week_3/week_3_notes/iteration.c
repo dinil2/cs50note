@@ -11,8 +11,10 @@ int main(void)
 
 void draw(int n)
 {
+    // For rach row of pyramid
     for (int i = 0; i < n; i++)
     {
+        // For each column of pyramid
         for (int j = 0; j < i + 1; j++)
         {
             printf("#");
